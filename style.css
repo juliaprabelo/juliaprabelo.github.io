@@ -3,10 +3,13 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    width: 940px;
+    margin: 0 auto;
 }
 h1{
     color: #3D3D3D;
     background-color: #E1EDF2;
+    padding: 10px;
 }
 h2{
     border-bottom: 2px solid black;
@@ -16,4 +19,11 @@ figure{
     text-align: center;
     background-color: whitesmoke;
     color: lightgrey;
+    padding: 15px;
+    margin: 30px;;
 }
+img{
+    margin: 10px;
+}
+
+
