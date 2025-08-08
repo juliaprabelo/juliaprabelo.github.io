@@ -9,7 +9,12 @@ body {
 h2 {
   border-bottom: 2px solid black;
 }
-h1, #contato{
+h3 {
+  color: #3d3d3d;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+h1, #contato {
   color: #3d3d3d;
   background-color: #e1edf2;
   padding: 10px;
@@ -68,4 +73,12 @@ img {
   flex-direction: column;  
   text-align: start;
 }
-
+#contato p {
+  margin: 3px 0;
+}
+#contato address {
+  margin-bottom: 20px;
+}
+.pe {
+  font-style: italic;
+}
