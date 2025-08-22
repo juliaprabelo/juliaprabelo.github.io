@@ -82,3 +82,49 @@ img {
 .pe {
   font-style: italic;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;;
+    text-align: center;
+
+}
+
+.formgrupo {
+    display: flex;
+    align-items: center;
+    gap: 20px;;
+    cursor: pointer;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="tel"]{
+  gap: 30px;
+
+}
+
+#textarea {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    display: flexbox;
+    left: 100px;
+}
+button {
+   width: 100px;
+   height: 50px;
+   cursor: pointer;
+   background-color: white;
+   border: 2px, solid, black;
+   font-weight: bold;
+}
